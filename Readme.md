@@ -9,7 +9,7 @@ The automation focuses on **Login** and **Add to Cart** functionalities, coverin
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 - Automate core functional flows of the SauceDemo application
 - Ensure reliable validation using assertions and explicit waits
 - Build a scalable, maintainable, and reusable automation framework
@@ -17,9 +17,9 @@ The automation focuses on **Login** and **Add to Cart** functionalities, coverin
 
 ---
 
-## ✅ Test Scenarios Covered
+##  Test Scenarios Covered
 
-### 🔐 Login Module
+###  Login Module
 - Login with **4 valid user credentials**
 - Login with **4 invalid user credentials**
 - Verify successful login redirection
@@ -33,7 +33,7 @@ The automation focuses on **Login** and **Add to Cart** functionalities, coverin
 
 ---
 
-## 📝 Test Case Summary
+##  Test Case Summary
 
 | Module    | Test Coverage                              |
 |----------|--------------------------------------------|
@@ -43,7 +43,7 @@ The automation focuses on **Login** and **Add to Cart** functionalities, coverin
 
 ---
 
-## 🧪 Automation Approach
+##  Automation Approach
 - **Page Object Model (POM)** used to separate locators and test logic
 - **Explicit waits** used for better synchronization
 - **Assertions** implemented to validate expected results
@@ -52,7 +52,7 @@ The automation focuses on **Login** and **Add to Cart** functionalities, coverin
 
 ---
 
-## 🧰 Framework & Tools Used
+##  Framework & Tools Used
 
 | Category          | Technology            |
 |------------------|----------------------|
@@ -68,9 +68,9 @@ The automation focuses on **Login** and **Add to Cart** functionalities, coverin
 
 ---
 
-## ⚙️ Setup Instructions
+##  Setup Instructions
 
-### 🔧 Prerequisites
+###  Prerequisites
 - Python **3.10 or above**
 - IntelliJ IDEA
 - Google Chrome Browser
@@ -79,8 +79,17 @@ The automation focuses on **Login** and **Add to Cart** functionalities, coverin
 
 ---
 
-### 📥 Installation Steps
+###  Installation Steps
 
 1. **Clone the repository**
 ```bash
 git clone https://github.com/parasgiri660/SaucedemoAutomation.git
+
+```
+---
+
+###  Run the command to start specific test 
+```bash
+cd SaucedemoAutomation/tests
+pytest <test_file_name>
+```
