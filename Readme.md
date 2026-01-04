@@ -25,7 +25,7 @@ The automation focuses on **Login** and **Add to Cart** functionalities, coverin
 - Verify successful login redirection
 - Verify appropriate error messages for invalid login attempts
 
-### 🛒 Add to Cart Module
+###  Add to Cart Module
 - Add a single product to the cart
 - Add multiple products to the cart
 
