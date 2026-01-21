@@ -4,14 +4,14 @@ pipeline {
     stages {
         stage('Install Dependencies') {
             steps {
-                bat 'python --version'
-                bat 'pip install -r requirements.txt'
+                bat '"C:\\Users\\jiban\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe" --version'
+                bat '"C:\\Users\\jiban\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe" -m pip install -r requirements.txt'
             }
         }
 
         stage('Run Tests') {
             steps {
-                bat 'pytest'
+                bat '"C:\\Users\\jiban\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe" -m pytest'
             }
         }
     }
